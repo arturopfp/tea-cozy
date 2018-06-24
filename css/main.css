@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    opacity: 0.9;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    padding-left: 10px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.menu {
+    display: flex;
+    width: 600px;
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav span {
+    text-decoration: underline;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+}
